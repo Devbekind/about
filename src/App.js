@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header-fixed">
         <nav className='navbar'> 
         <table>
@@ -27,6 +28,11 @@ function App() {
         </table>
         </nav>
       </header>
+      <head>
+      <div className='under_nav_box'>
+        <div id='under_nav_box_text'/>
+      </div>
+      </head>
     </div>
   );
 }

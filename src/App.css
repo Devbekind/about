@@ -53,3 +53,13 @@
   vertical-align: middle;
   padding: 0;
 }
+.under_nav_box {
+  
+  top: 500px;
+  height: 1120px;
+  width: auto;
+  background-color: rgb(34, 34, 117);
+}
+.under_nav_box_text {
+  color: black;
+}
