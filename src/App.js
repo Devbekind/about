@@ -1,5 +1,6 @@
- 
 import './App.css';
+import './under_navbar.css';
+import './under_root';
 
 function App() {
   return (
@@ -11,28 +12,26 @@ function App() {
           <tr>
           <td>
             <div className='leftside_navbar'>
-            <div id='Button_left№1'><button>Button</button></div>
-            <div id='Button_left№2'><button>Button</button></div>
+            <div><button id='Button_left№1'>Button</button></div>
+            <div><button id='Button_left№2'>Button</button></div>
             </div>
         </td>
         <td> 
         <div className='rightside_navbar'>
-          <div id='Button_right№1'><button>Button</button></div>
-          <div id='Button_right№2'><button>Button</button></div>
+          <div><button  id='Button_right№1'>Button</button></div>
+          <div><button  id='Button_right№2'>Button</button></div>
         </div>
         </td>
         <div className='lang_button'>
-          <div id='Button_lang'> <button>lang</button></div>
+          <div> <button id='Button_lang'>lang</button></div>
         </div>
         </tr>
         </table>
         </nav>
       </header>
-      <head>
-      <div className='under_nav_box'>
-        <div id='under_nav_box_text'/>
-      </div>
-      </head>
+      <head className='head_under_root'>
+      <under_root/>
+      </head>   
     </div>
   );
 }

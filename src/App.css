@@ -25,7 +25,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
-  background-color: rgb(192, 248, 248);
+  background-color: rgb(76, 7, 202);
 }
 .navbar {
   background-color: bisque;
@@ -53,13 +53,38 @@
   vertical-align: middle;
   padding: 0;
 }
-.under_nav_box {
+.head_under_root {
   
   top: 500px;
   height: 1120px;
   width: auto;
   background-color: rgb(34, 34, 117);
 }
-.under_nav_box_text {
+.under_root {
   color: black;
+}
+#Button_left№1{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(188, 190, 190);
+}
+#Button_left№2{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(188, 190, 190);
+}
+#Button_right№1{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(188, 190, 190);
+}
+#Button_right№2{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(188, 190, 190);
+}
+#Button_lang{
+  height: 50px;
+  width: 50px;
+  background-color: rgb(188, 190, 190);
 }
