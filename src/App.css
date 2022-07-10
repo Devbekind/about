@@ -29,9 +29,10 @@
 }
 .header_under_root {
   background-color: black;
+  height: 500px;
 }
 .navbar {
-  background-color: bisque;
+  background-color: rgb(161, 106, 37);
   display: flex;
 }
 .leftside_navbar {
