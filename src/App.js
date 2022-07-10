@@ -5,7 +5,16 @@ function App() {
   return (
     <div className="App">
       
-      <header className="header_fixed">
+      <header>
+       
+      </header>
+      <head>
+        <div>
+          
+        </div>
+      </head>   
+      <body className='body'>
+        <div className='header_fixed'>
         <nav className='navbar'> 
         <table>
           <tr>
@@ -27,12 +36,16 @@ function App() {
         </tr>
         </table>
         </nav>
-      </header>
-      <head className='header_under_root'>
-        <div>
+        </div>
+        <div className='header_under_root'>
+        </div>
+        <div className='main'>
           
         </div>
-      </head>   
+        <div className='footer'>
+
+        </div>
+      </body>
     </div>
   );
 }
