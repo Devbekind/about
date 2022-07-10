@@ -15,7 +15,7 @@
   }
 }
 
-.App-header-fixed {
+.header_fixed {
   height: 120px;
   min-height: 100px;
   display: flex;
@@ -26,6 +26,9 @@
   font-size: calc(10px + 2vmin);
   color: rgb(0, 0, 0);
   background-color: rgb(76, 7, 202);
+}
+.header_under_root {
+  background-color: black;
 }
 .navbar {
   background-color: bisque;
@@ -53,16 +56,7 @@
   vertical-align: middle;
   padding: 0;
 }
-.head_under_root {
-  
-  top: 500px;
-  height: 1120px;
-  width: auto;
-  background-color: rgb(34, 34, 117);
-}
-.under_root {
-  color: black;
-}
+
 #Button_left№1{
   height: 50px;
   width: 50px;

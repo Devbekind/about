@@ -1,12 +1,11 @@
 import './App.css';
-import './under_navbar.css';
-import './under_root';
+
 
 function App() {
   return (
     <div className="App">
       
-      <header className="App-header-fixed">
+      <header className="header_fixed">
         <nav className='navbar'> 
         <table>
           <tr>
@@ -29,8 +28,10 @@ function App() {
         </table>
         </nav>
       </header>
-      <head className='head_under_root'>
-      <under_root/>
+      <head className='header_under_root'>
+        <div>
+          111
+        </div>
       </head>   
     </div>
   );
