@@ -39,19 +39,27 @@
   background-color: rgb(221, 217, 228);
   display: flex;
 }
+#idimg{
+  height: 70px;
+  width: 70px;
+  justify-content: center;
+  vertical-align: middle;
+  margin-right: 100px;
+}
 .leftside_navbar {
   display: flex;
   padding: 1px;
   background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
-  margin-right: 950px;
+  margin-right: 850px;
   justify-content: center;
   vertical-align: middle;
 }
 .rightside_navbar {
   display: flex;
-  background-color: rgb(173, 168, 168);
+  padding: 1px;
+  background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
   justify-content: center;
@@ -67,62 +75,159 @@
   margin: 25px;
   height: 38px;
   width: 65px;
-  background-color: rgb(188, 190, 190);
+  background-color: rgb(221, 217, 228);
   color: black;
-  border: 2px solid #9d04cc4b;
+  border: none;
   border-radius: 10px;
   
 }
 #Button_left№1:hover{
   transition-duration: 0.4s;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
-  background-color: blueviolet;
-  color: white;
+  transition-delay: 0.4ms;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: rgb(0, 0, 0);
   transform: scale(1.05);
 }
+
 #Button_left№2{
+  
   margin: 25px;
   height: 38px;
   width: 65px;
-  background-color: rgb(188, 190, 190);
+  background-color: rgb(221, 217, 228);
   color: black;
   border-radius: 10px;
   border: none;
+}
+#Button_left№2:hover{
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
 }
 #Button_right№1{
   margin: 25px;
   height: 38px;
   width: 65px;
-  background-color: rgb(188, 190, 190);
+  background-color: rgb(221, 217, 228);
   color: black;
   border-radius: 10px;
   border: none;
+}
+#Button_right№1:hover{
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
 }
 #Button_right№2{
   margin: 25px;
   height: 38px;
   width: 65px;
-  background-color: rgb(188, 190, 190);
+  background-color: rgb(221, 217, 228);
   color: black;
   border-radius: 10px;
   border: none;
+}
+#Button_right№2:hover{
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
 }
 #Button_lang{
   margin: 25px;
   height: 35px;
   width: 35px;
-  background-color: rgb(188, 190, 190);
+  background-color: rgb(221, 217, 228);
   color: black;
   border-radius: 25px;
   border: none;
+}
+#Button_lang:hover{
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  text-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+  color: rgb(0, 0, 0);
+  transform: scale(1.05);
 }
 .main{
   height: 741px;
   box-shadow: -1px -1px 5px rgb(126, 124, 124);
 }
 .footer{
+  padding-top: 6px;
   background-color: rgb(221, 217, 228);
   color: black;
   height: 80px;
   box-shadow: -1px -1px 5px rgb(126, 124, 124);
+}
+.footer_table_imgs{
+  margin-left: 38%;
+  justify-content: center;
+}
+#telegram{
+  height: 60px;
+  width: 60px;
+}
+#telegram:hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+ 
+}
+#instagram{
+  height: 60px;
+  width: 60px;
+}
+#instagram:hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+
+}
+#facebook{
+  height: 60px;
+  width: 60px;
+}
+#facebook:hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  
+}
+#github{
+  height: 60px;
+  width: 60px;
+}
+#github:hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+ 
+}
+#linkedin{
+  height: 60px;
+  width: 60px;
+}
+#linkedin:hover{
+  transform: scale(1.05);
+  transition-duration: 0.4s;
+  transition-delay: 0.4ms;
+  
+}
+.Carousel{
+  padding-top: 36px;
+  align-items: center;
+  margin-left: 36px;
+  width: 1100px;
+  height: 670px;
+  
+}
+.d-block{
+  width: 1100px;
+  height: 670px;
 }
