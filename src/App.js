@@ -4,6 +4,8 @@ import './App.css';
 import SwitchExample from './components/switch';
 import DropDirectioExample from './components/dropdown';
 import './components/dropdown.css';
+// import Example from './components/overlay';
+ 
 
 function App() {
   return (
@@ -23,11 +25,14 @@ function App() {
         <table>
           <tr>
             <td>
-              <div><img id='idimg' src='https://static-cse.canva.com/blob/847064/29.jpg'></img></div>
+              <div><img id='idimg' src='./img/Azovstal_logo.png'></img></div>
             </td>
           <td>
             <div className='leftside_navbar'>
-            <div><button id='Button_left№1'>My techstack</button></div> https://www.youtube.com/watch?v=TfRFElId6WY&list=PPSV
+            <div>   
+            {/* <Example /> */}
+             
+            </div> 
             <div><button id='Button_left№2'>background</button></div>
             </div>
         </td>
@@ -38,7 +43,7 @@ function App() {
             <td className='theme'><img src='https://static.thenounproject.com/png/33746-200.png' height='90px' width='90px  '/></td>
             </tr>
             <tr>
-            <td><div className='switch'><SwitchExample/></div></td> https://www.youtube.com/watch?v=ad9f-EYtWPo
+            <td><div className='switch'><SwitchExample/></div></td> 
             </tr>
             </table>
              
