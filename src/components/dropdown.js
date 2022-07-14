@@ -2,11 +2,12 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 import SplitButton from 'react-bootstrap/SplitButton';
 import React from 'react';
- 
+
+
 function DropDirectioExample() {
   return (
      
-      <div className="mb-2">
+      <div className="dropdown_css">
         
         {[''].map((direction) => (
           <DropdownButton
@@ -15,13 +16,13 @@ function DropDirectioExample() {
             id={`dropdown-button-drop-${direction}`}
             drop={direction}
             variant="secondary"
-            title={<img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png' height='90px' width='90px' />}
+            title={<img src='./img/png-english.png' height='66px' width='66px' />}
           >
-            <Dropdown.Item eventKey="1"><img src='https://d1fdloi71mui9q.cloudfront.net/o7cT7VKiQ1KMvXKf5j1Z_4WFdLoIRs3rUMwlw' height='90px' width='90px' /></Dropdown.Item>
+            <Dropdown.Item eventKey="1"><table><tr><img src='./img/png-denmark.png' height='66px' width='66px' /></tr><tr><td id='danske'>Danske</td></tr> </table></Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item eventKey="2"><img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png' height='90px' width='90px' /></Dropdown.Item>
+            <Dropdown.Item eventKey="2"><table><tr><img src='./img/png-english.png' height='66px' width='66px' /></tr><tr><td id='danske'>English Language</td></tr> </table></Dropdown.Item>
             <Dropdown.Divider />
-            <Dropdown.Item eventKey="3"><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/1200px-Flag_of_Denmark.svg.png' height='90px' width='90px' /></Dropdown.Item>
+            <Dropdown.Item eventKey="3"><table><tr><img src='./img/png-Ukraine.png' height='66px' width='66px' /></tr><tr><td id='danske'>Українською мовою</td></tr> </table></Dropdown.Item>
           </DropdownButton>
         ))}
          

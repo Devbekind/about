@@ -3,7 +3,7 @@ import ControlledCarousel from './components/carousel';
 import './App.css';
 import SwitchExample from './components/switch';
 import DropDirectioExample from './components/dropdown';
- 
+import './components/dropdown.css';
 
 function App() {
   return (
