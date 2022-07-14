@@ -7,6 +7,7 @@ function SwitchExample() {
       <Form.Check 
         type="switch"
         id="custom-switch"
+       
       />
     </Form>
   );

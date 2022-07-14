@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
+
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
 
@@ -13,37 +14,37 @@ function ControlledCarousel() {
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://dnepr.info/wp-content/uploads/2022/04/b1104ba-.jpg"
+          src="https://aci.dp.ua/images/pages/mariupol.jpg"
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3 id='First_slide_h3'>Before russian-peace</h3>
+          <p id='First_slide_p'>It how look like entrance in the city</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://img.tsn.ua/cached/037/tsn-86026451a4bd5b82b0f7aa9436ae117b/thumbs/428x268/d3/3e/f8983df3baf09956755e2bc1b56a3ed3.jpeg"
+          src="https://cdn5.vedomosti.ru/image/2022/4e/w91g/original-15s.jpg"
           alt="Second slide"
         />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3 id='Second_slide_h3'>In process</h3>
+          <p id='Second_slide_h3'></p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block"
-          src="https://img.tsn.ua/cached/037/tsn-86026451a4bd5b82b0f7aa9436ae117b/thumbs/428x268/d3/3e/f8983df3baf09956755e2bc1b56a3ed3.jpeg"
+          src="https://pbs.twimg.com/media/FU7OV-IXsAESiZk?format=jpg&name=large"
           alt="Third slide"
         />
 
         <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          <h3 id='Third_slide_h3'>After russian-peace</h3>
+          <p id='Third_slide_h3'> 
+            And this just little part, just monument at the entrance in city.
           </p>
         </Carousel.Caption>
       </Carousel.Item>

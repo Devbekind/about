@@ -27,8 +27,8 @@ function App() {
             </td>
           <td>
             <div className='leftside_navbar'>
-            <div><button id='Button_left№1'>Button</button></div>
-            <div><button id='Button_left№2'>Button</button></div>
+            <div><button id='Button_left№1'>My techstack</button></div> https://www.youtube.com/watch?v=TfRFElId6WY&list=PPSV
+            <div><button id='Button_left№2'>background</button></div>
             </div>
         </td>
         <td> 
@@ -38,12 +38,12 @@ function App() {
             <td className='theme'><img src='https://static.thenounproject.com/png/33746-200.png' height='90px' width='90px  '/></td>
             </tr>
             <tr>
-            <td><div className='switch'><SwitchExample/></div></td>
+            <td><div className='switch'><SwitchExample/></div></td> https://www.youtube.com/watch?v=ad9f-EYtWPo
             </tr>
             </table>
-          
-          <div><button  id='Button_right№1'>Button</button></div>
-          <div><button  id='Button_right№2'>Button</button></div>
+             
+            <div><button  id='Button_right№1'><img src='./img/damaged_house.png' height='45px' width='45px' /></button></div>
+            <div><button  id='Button_right№2'>look at my home</button></div>
         </div>
         </td>
         <div className='lang_button'>
@@ -56,25 +56,34 @@ function App() {
         </nav>
         </div>
         <div className='header_under_root'>
-          Hello to everybody i create this webpage to confim that i competent as a Junior Frontend Developer <br/>
-          And tell about me little bit, about my background for example.
+          <table className='table_under_root'>
+            <tr>
+              <td><img src='./img/emoji_hand_wave.png'/></td>
+              <td> 
+          <p id='under_header_text'> Hello to everybody i create this webpage to confim that i competent as a Junior Frontend Developer <br/>
+          And tell about me little bit, about my background for example.</p>
+          </td>
+          <td><img src='./img/emoji_hand_2fingers.png'/></td>
+          </tr>
+          </table>
         </div>
         <div className='main'>
           <table>
           <tr>
             <td><div className='Carousel'><ControlledCarousel /></div></td>
-            <td><div className='desription'>When the war starts 24th of february, i was sit in my garden cellar. 
-            27th of february when aircraft starts drop the bombs, not only artillery, exist in my home was unbearable. 
+            <td><div className='desription'>
+            <p id='abstract1'> When the war starts 24th of february, i was sit in my garden cellar. </p>
+            <p id='abstract2'> 27th of february when aircraft starts drop the bombs, not only artillery, exist in my home was unbearable. 
             So i leave home, and next weeks live in my uncle house. We survival without electricity,heat and water. 
-            It was winter, i remember this cold. 
-            10th of March, it was an a artillery and my uncle was killed on my eyes. 
+            It was winter, i remember this cold. </p>
+            <p id='abstract3'> 10th of March, it was an a artillery and my uncle was killed on my eyes. 
             When it happened, i leaved this house and going to the firestation undegrounds.
             Next 7 day i sit undegrounds without any food, water. 
-            I had a little shrapnel wound, and at that time i needed aids.
-            After this city survival episode, russian special troops founded our firemans undeground, and says that they have a sweep us. 
+            I had a little shrapnel wound, and at that time i needed aids.</p>
+            <p id='abstract3'> After this city survival episode, russian special troops founded our firemans undeground, and says that they have a sweep us. 
             And we have a choice, be killed here, or sit in bus with militaries and be deportated so far in Rusland.
             And when we crossed the border, i hide, leave and i start long way to here, first i arrive to Georgia, take tickets to the Hannover, 
-            take medical emergency help from deutches rod kroz. 
+            take medical emergency help from deutches rod kroz. </p>
             And at this moment, i survived the war, and sit in peacefull place. </div></td>
           </tr>
           </table>

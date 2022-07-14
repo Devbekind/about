@@ -1,3 +1,6 @@
+#lang_photo{
+    border-radius: 35px; 
+}
 .lang_button {
     top: 11px;
     display: flex;
@@ -8,8 +11,7 @@
     padding: 0;
     vertical-align: middle;
 
-     
-     
+         
   }
 .drop_end{
     
@@ -18,7 +20,7 @@
 .dropdown_css {
     height: 77px;
     width: 77px;
-     
+    
   }
 .dropdown {
     height: 77px;
@@ -39,4 +41,7 @@
 }
 .btn-secondary::after{
 
+}
+.dropdown-menu{
+    width: 175px; 
 }

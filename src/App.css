@@ -51,6 +51,7 @@
   justify-content: center;
   vertical-align: middle;
   margin-right: 100px;
+  border-radius: 99%;
 }
 .leftside_navbar {
   display: flex;
@@ -65,17 +66,17 @@
 .rightside_navbar {
   display: flex;
   padding: 1px;
-  margin-right: 250px;
+  margin-right: 350px;
   background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
-  justify-content: center;
+  
 }
 
 #Button_left№1{
   margin: 25px;
   height: 38px;
-  width: 65px;
+  width: 155px;
   font-size: x-large;
   background-color: rgb(221, 217, 228);
   color: black;
@@ -110,7 +111,8 @@
 }
 #Button_right№1{
   font-size: x-large;
-  margin: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
   height: 38px;
   width: 65px;
   background-color: rgb(221, 217, 228);
@@ -126,14 +128,17 @@
   transform: scale(1.05);
 }
 #Button_right№2{
-  font-size: x-large;
-  margin: 25px;
-  height: 38px;
-  width: 65px;
+  font-size: small;
+  margin-top: 25px;
+  margin-left: 25px;
+
+  height: 48px;
+  width: 95px;
   background-color: rgb(221, 217, 228);
   color: black;
-  border-radius: 10px;
-  border: none;
+  border-radius: 3px;
+  border: thin 2px;
+  border-color: green;
 }
 #Button_right№2:hover{
   transition-duration: 0.4s;
@@ -231,14 +236,17 @@
   height: 670px;
 }
 .desription{
-  background-color: rgb(19, 212, 212);
+  padding-top: 36px;
+  height: 670px;
+  background-color: rgb(255, 255, 255);
+
 }
 .switch{
-  left: 72.5%;
+  left: 61.5%;
   display: flex;
   position: relative;
   padding: 0px;
-  
+  transform: scale(0.8);
   bottom: 32px;
    
 }
@@ -251,4 +259,52 @@
   display: flex;
   position: relative;
   bottom: 14px;
+}
+
+#abstract1{
+  text-align: left;
+  text-indent:  5%;
+   
+}
+#abstract2{
+  text-align: left;
+  text-indent:  4%;
+  padding-left: 1%;
+}
+#abstract3{
+  text-align: left;
+  text-indent:  4%;
+  padding-left: 1%;
+}
+#abstract4{
+  text-align: left;
+  text-indent:  4%;
+  padding-left: 1%;
+}
+
+#First_slide_h3{
+  color: rgb(253, 253, 253);
+}
+#First_slide_p{
+  color: rgb(255, 255, 255);
+}
+#Second_slide_h3{
+  color: rgb(255, 255, 255);
+}
+#Second_slide_p{
+  color: rgb(255, 255, 255);
+}
+#Third_slide_h3{
+  color: rgb(255, 255, 255);
+}
+#Third_slide_p{
+  color: rgb(255, 255, 255);
+}
+#under_header_text{
+  padding-top: 35px;
+}
+.table_under_root{
+   
+  margin: auto;
+  width: 600px;
 }
