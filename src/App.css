@@ -30,9 +30,14 @@
   box-shadow: 3px 1px 7px rgb(126, 124, 124);
 }
 .header_under_root {
+ 
   background-color: black;
   height: 180px;
   background-color: rgb(195, 192, 201);
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+
 }
 
 .navbar {
@@ -52,13 +57,14 @@
   background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
-  margin-right: 850px;
+  margin-right: 550px;
   justify-content: center;
   vertical-align: middle;
 }
 .rightside_navbar {
   display: flex;
   padding: 1px;
+  margin-right: 250px;
   background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
@@ -75,6 +81,7 @@
   margin: 25px;
   height: 38px;
   width: 65px;
+  font-size: x-large;
   background-color: rgb(221, 217, 228);
   color: black;
   border: none;
@@ -90,7 +97,7 @@
 }
 
 #Button_left№2{
-  
+  font-size: x-large;
   margin: 25px;
   height: 38px;
   width: 65px;
@@ -107,6 +114,7 @@
   transform: scale(1.05);
 }
 #Button_right№1{
+  font-size: x-large;
   margin: 25px;
   height: 38px;
   width: 65px;
@@ -123,6 +131,7 @@
   transform: scale(1.05);
 }
 #Button_right№2{
+  font-size: x-large;
   margin: 25px;
   height: 38px;
   width: 65px;
@@ -140,12 +149,14 @@
 }
 #Button_lang{
   margin: 25px;
-  height: 35px;
-  width: 35px;
+  height: 50px;
+  width: 50px;
   background-color: rgb(221, 217, 228);
   color: black;
   border-radius: 25px;
-  border: none;
+  border: thin;
+  border-color: green;
+  background-color: rgb(189, 15, 145);
 }
 #Button_lang:hover{
   transition-duration: 0.4s;
@@ -230,4 +241,26 @@
 .d-block{
   width: 1100px;
   height: 670px;
+}
+.desription{
+  background-color: rgb(19, 212, 212);
+}
+.switch{
+  left: 61.5%;
+  display: flex;
+  position: relative;
+  padding: 0px;
+  transform: scale(0.80);
+  bottom: 45px;
+   
+}
+.theme{
+  left: 55%;
+  width: 310px;
+  transform: scale(0.7);
+  font-size: smaller;
+  padding: 0px;
+  display: flex;
+  position: relative;
+  bottom: 25px;
 }
