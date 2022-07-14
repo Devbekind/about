@@ -1,8 +1,9 @@
 import React, { Container}from 'react';
-import Carousel from 'react-bootstrap/Carousel';
 import ControlledCarousel from './components/carousel';
 import './App.css';
 import SwitchExample from './components/switch';
+import DropDirectioExample from './components/dropdown';
+ 
 
 function App() {
   return (
@@ -34,7 +35,7 @@ function App() {
         <div className='rightside_navbar'>
           <table> 
             <tr>
-            <td className='theme'><img src='https://static.thenounproject.com/png/33746-200.png' height='90px' width='90px'/></td>
+            <td className='theme'><img src='https://static.thenounproject.com/png/33746-200.png' height='90px' width='90px  '/></td>
             </tr>
             <tr>
             <td><div className='switch'><SwitchExample/></div></td>
@@ -46,7 +47,9 @@ function App() {
         </div>
         </td>
         <div className='lang_button'>
-          <div> <button id='Button_lang'>lang</button></div>
+          <div className='drop_end'>
+            <DropDirectioExample/>
+          </div>
         </div>
         </tr>
         </table>
