@@ -5,7 +5,7 @@ import SwitchExample from './components/switch';
 import DropDirectioExample from './components/dropdown';
 import './components/dropdown.css';
 // import Example from './components/overlay';
- 
+import ExampleModals from './components/Modal';
 
 function App() {
   return (
@@ -27,15 +27,15 @@ function App() {
             <td>
               <div><img id='idimg' src='./img/Azovstal_logo.png'></img></div>
             </td>
-          <td>
+            <td>
             <div className='leftside_navbar'>
-            <div>   
+            <div> <button id='Button_left№1'> 
             {/* <Example /> */}
-             
-            </div> 
-            <div><button id='Button_left№2'>background</button></div>
-            </div>
-        </td>
+            <ExampleModals>1</ExampleModals>
+            </button>  
+            </div> </div>
+              
+          </td>
         <td> 
         <div className='rightside_navbar'>
           <table> 
