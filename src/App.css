@@ -59,7 +59,7 @@
   background-color: rgb(221, 217, 228);
   height: 90px;
   width: 300px;
-  margin-right: 550px;
+  margin-right: 450px;
   justify-content: center;
   vertical-align: middle;
 }
@@ -77,6 +77,9 @@
   margin: 25px;
   height: 38px;
   width: 155px;
+  left: -150px;
+  position: relative;
+  display: flex;
   font-size: x-large;
   background-color: rgb(221, 217, 228);
   color: black;
@@ -357,3 +360,6 @@
 #reacts{
   margin-left: 440px;
 }
+input[type="switch"]:checked ~ .body{ 
+  background-color: rgb(51, 50, 54);
+ }

@@ -16,4 +16,6 @@ code {
     monospace;
 }
 
- 
+ input[type="switch"]:checked ~ .body{ 
+  background-color: rgb(51, 50, 54);
+ }
