@@ -48,7 +48,7 @@ function App() {
             </table>
              
             <div><button  id='Button_right№1'><img src='./img/damaged_house.png' height='45px' width='45px' /></button></div>
-            <div><button  id='Button_right№2'>look at my home</button></div>
+            <div><button  id='Button_right№2'>look </button></div>
         </div>
         </td>
         <div className='lang_button'>
