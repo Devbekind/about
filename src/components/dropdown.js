@@ -17,7 +17,7 @@ function DropDirectioExample() {
             variant="secondary"
             title={<img id='lang_photo' alt='eng' src='./img/png-english.png' height='66px' width='66px' />}
           >
-            <Dropdown.Item eventKey="1"><table><tr><img id='lang_photo' src='./img/png-denmark.png' height='66px' width='66px' alt='dk'/></tr><tr><td id='danske'>Danske</td></tr> </table></Dropdown.Item>
+            <Dropdown.Item eventKey="1"><table><tr><img id='lang_photo' src='./img/png-Denmark.png' height='66px' width='66px' alt='dk'/></tr><tr><td id='danske'>Danske</td></tr> </table></Dropdown.Item>
             <Dropdown.Divider />
             <Dropdown.Item eventKey="2"><table><tr><img id='lang_photo' src='./img/png-english.png' height='66px' width='66px' alt='eng'/></tr><tr><td id='danske'>English Language</td></tr> </table></Dropdown.Item>
             <Dropdown.Divider />
