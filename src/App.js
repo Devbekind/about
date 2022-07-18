@@ -97,19 +97,19 @@ function App() {
         <table className='footer_table_imgs'>
           <tr>
             <td>
-            <a href='https://t.me/xXxpublicenemy'>  <img id='telegram' src='img/telegram.png'></img></a>
+            <a href='https://t.me/xXxpublicenemy'>  <img id='telegram' src='../img/telegram.png'></img></a>
             </td>
             <td>
-            <a href='https://instagram.com/nezzzhnost666?r=nametag'> <img id='instagram' src='img/instagram_logo.png'></img></a> 
+            <a href='https://instagram.com/nezzzhnost666?r=nametag'> <img id='instagram' src='../img/instagram_logo.png'></img></a> 
             </td>
             <td>
-            <a href='https://www.facebook.com/people/Mykyta-Kolysnychenko/100080023478550/'><img id='facebook' src='img/facebook.png'></img></a>  
+            <a href='https://www.facebook.com/people/Mykyta-Kolysnychenko/100080023478550/'><img id='facebook' src='../img/facebook.png'></img></a>  
             </td>
             <td>
-            <a href='https://github.com/Devbekind'><img id='github' src='img/github.png'></img></a>  
+            <a href='https://github.com/Devbekind'><img id='github' src='../img/github.png'></img></a>  
             </td>
             <td>
-            <a href='https://www.linkedin.com/in/mykyta-kolysnychenko-25b0b3236/'><img id='linkedin' src='img/linkedin.png'></img>  </a>
+            <a href='https://www.linkedin.com/in/mykyta-kolysnychenko-25b0b3236/'><img id='linkedin' src='../img/linkedin.png'></img>  </a>
             </td>
           </tr>
         </table>
