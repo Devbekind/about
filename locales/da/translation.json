@@ -1,7 +1,0 @@
-{
-    "title": "Internationalisering med i18next",
-    "description": {
-      "part1": "For at komme i gang skal du redigere <1>src/App.js</1> gemme for at genindlæse.",
-      "part2": "Skift sprog mellem ved hjælp af knapperne ovenfor."
-    }
-  }
