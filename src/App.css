@@ -187,8 +187,8 @@
  
 }
 #instagram{
-  height: 60px;
-  width: 60px;
+  height: 73px;
+  width: 73px;
 }
 #instagram:hover{
   transform: scale(1.05);
@@ -363,3 +363,13 @@
 input[type="switch"]:checked ~ .body{ 
   background-color: rgb(51, 50, 54);
  }
+
+
+.test{
+  display: flex;
+  left: -450px;
+  width: 500px;
+  height: 100px;
+  background-color: blue;
+}
+ 

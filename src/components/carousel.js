@@ -18,8 +18,8 @@ function ControlledCarousel() {
           alt="First slide"
         />
         <Carousel.Caption>
-          <h3 id='First_slide_h3'>Before russian-peace</h3>
-          <p id='First_slide_p'>It how look like entrance in the city</p>
+          <h3 id='First_slide_h3'> </h3>
+          <p id='First_slide_p'> </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -30,7 +30,7 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3 id='Second_slide_h3'>In process</h3>
+          <h3 id='Second_slide_h3'> </h3>
           <p id='Second_slide_h3'></p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -42,9 +42,9 @@ function ControlledCarousel() {
         />
 
         <Carousel.Caption>
-          <h3 id='Third_slide_h3'>After russian-peace</h3>
+          <h3 id='Third_slide_h3'> </h3>
           <p id='Third_slide_h3'> 
-            And this just little part, just monument at the entrance in city.
+             
           </p>
         </Carousel.Caption>
       </Carousel.Item>

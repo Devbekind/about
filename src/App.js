@@ -6,8 +6,13 @@ import DropDirectioExample from './components/dropdown';
 import './components/dropdown.css';
 // import Example from './components/overlay';
 import ExampleModals from './components/Modal';
-
+ 
+ 
+ 
 function App() {
+ 
+};
+
   return (
     <div className="App">
       
@@ -77,6 +82,8 @@ function App() {
           <tr>
             <td><div className='Carousel'><ControlledCarousel /></div></td>
             <td><div className='desription'>
+       
+             
             <p id='abstract1'> When the war starts 24th of february, i was sit in my garden cellar. </p>
             <p id='abstract2'> 27th of february when aircraft starts drop the bombs, not only artillery, exist in my home was unbearable. 
             So i leave home, and next weeks live in my uncle house. We survival without electricity,heat and water. 
@@ -90,26 +97,28 @@ function App() {
             And when we crossed the border, i hide, leave and i start long way to here, first i arrive to Georgia, take tickets to the Hannover, 
             take medical emergency help from deutches rod kroz. </p>
             And at this moment, i survived the war, and sit in peacefull place. </div></td>
+         
           </tr>
           </table>
+          
         </div>
         <div className='footer'>
         <table className='footer_table_imgs'>
           <tr>
             <td>
-            <a href='https://t.me/xXxpublicenemy'>  <img id='telegram' src='img/telegram.png'></img></a>
+            <a href='https://t.me/xXxpublicenemy'>  <img id='telegram' src= './img/telegram.png'  ></img></a>
             </td>
             <td>
-            <a href='https://instagram.com/nezzzhnost666?r=nametag'> <img id='instagram' src='img/logo-ig-png-32461.png'></img></a> 
+            <a href='https://instagram.com/nezzzhnost666?r=nametag'> <img id='instagram' src= './img/logo-ig-png-32461.png' ></img></a> 
             </td>
             <td>
-            <a href='https://www.facebook.com/people/Mykyta-Kolysnychenko/100080023478550/'><img id='facebook' src='img/facebook.png'></img></a>  
+            <a href='https://www.facebook.com/people/Mykyta-Kolysnychenko/100080023478550/'><img id='facebook' src= './img/facebook.png'  ></img></a>  
             </td>
             <td>
-            <a href='https://github.com/Devbekind'><img id='github' src='img/github.png'></img></a>  
+            <a href='https://github.com/Devbekind'><img id='github' src= './img/github.png' ></img></a>  
             </td>
             <td>
-            <a href='https://www.linkedin.com/in/mykyta-kolysnychenko-25b0b3236/'><img id='linkedin' src='img/linkedin.png'></img>  </a>
+            <a href='https://www.linkedin.com/in/mykyta-kolysnychenko-25b0b3236/'><img id='linkedin' src= './img/linkedin.png' ></img>  </a>
             </td>
           </tr>
         </table>
